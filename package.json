@@ -32,10 +32,10 @@
     "dotenv": "^8.0.0",
     "inquirer": "^0.12.0",
     "mkdirp": "^1.0.4",
-    "mongoose": "^7.0.3",
+    "mongoose": "^8.8.3",
     "yargs": "^16.1.1"
   },
   "devDependencies": {
-    "np": "^7.6.4"
+    "np": "^10.1.0"
   }
 }
