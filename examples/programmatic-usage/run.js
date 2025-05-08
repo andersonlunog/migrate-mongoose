@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const MigrateMongoose = require('../../src/lib');
 
-mongoose.connect('mongodb://localhost:27017/mydb', { useNewUrlParser: true }).then((mongooseConn) => {
+mongoose.connect('mongodb://localhost:27017/mydb').then((mongooseConn) => {
     let options = {
         migrationsPath: 'examples/programmatic-usage/migrations',
         connection: mongooseConn.connection,
